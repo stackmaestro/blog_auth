@@ -1,0 +1,15 @@
+export default {
+  nameMax: 'Must be at most 15 characters',
+  nameRequired: 'Name is Required',
+  emailInvalid: 'Email is invalid',
+  emailRequired: 'Email is required',
+  minPassword: 'Password must be at least 6 charaters',
+  passRequired: 'Password is required',
+  postTitleMin: 'Must be 15 characters or more',
+  postTitleRequired: 'Post Title is Required',
+  postContentMin: 'Must be 50 characters or more',
+  postContentRequired: 'Post Content is Required',
+  commentTextRequired: 'Comment Text is Required',
+  unknown: 'Unknown Error Occured!',
+  unauthorized: 'Unauthorized!',
+};

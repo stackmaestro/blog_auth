@@ -1,0 +1,70 @@
+.auth-form-wrapper{
+    border: 1px solid whitesmoke;
+    max-width: 800px;
+}
+
+.formik-field-invalid{
+  border-color: red;
+}
+
+.formik-field-error{
+  color: red;
+  font-size: 14px;
+}
+
+
+.auth-form{
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.post-item-wrapper{
+  border: 1px solid blue;
+  border-radius: 1rem;
+  word-break: break-word;
+
+}
+
+.post-item-clickable{
+  transition: all ease-in-out 0.2s;
+}
+
+.post-item-clickable:hover{
+  cursor: pointer;
+  transform: scale(1.02);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.post-paragraph{
+  text-overflow: ellipsis;
+}
+
+.create-post-form{
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+
+.comments-container{
+  border: 1px solid green;
+  border-radius: 1rem;
+}
+
+.comment-wrapper{
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+
+
+.nav-item > a{
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+.navbar{
+  min-height: 4rem;
+}

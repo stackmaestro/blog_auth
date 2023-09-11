@@ -1,0 +1,32 @@
+module.exports = {
+  usernameRequired: 'Name of User is Required!',
+  emailRequired: 'Email of User is Required!',
+  userInvalid: 'User does not exist!',
+  wrongPassword: 'Wrong Password!',
+  invalidCredentials: 'Invalid Credentials',
+  unauthorized: 'Unauthorized',
+  emailRegistered: 'Email address already registered',
+  nameEmpty: 'Name Cannot be Empty!',
+  emailInvalid: 'Invalid Email provided!',
+  passwordEmpty: 'Password cannot be empty!',
+  commentNotFound: 'Comment not found',
+  commentEmpty: 'Text of comment cannot be empty!',
+  commentIdEmpty: 'Comment ID not found!',
+  forbidComment: 'Comments not allowed for non-published Post!',
+  postInvalid: 'Post not found',
+  postTitleEmpty: 'Title of post cannot be empty!',
+  postTitleMin: 'Title must be at least 15 chars long',
+  postContentEmpty: 'Content of post cannot be empty!',
+  postContentMin: 'Content must be at least 50 chars long',
+  serverError: 'Internal Server Error Encountered',
+  getError: (message, loc = null, param = null, value = null) => ({
+    errors: [
+      {
+        msg: message,
+        location: loc,
+        param,
+        value,
+      },
+    ],
+  }),
+};
